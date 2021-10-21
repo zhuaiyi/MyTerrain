@@ -1,0 +1,576 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SVC
+  m_Shaders:
+  - first: {fileID: 4800000, guid: 65df88701913c224d95fc554db28381a, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS _DEPTH_NO_MSAA _MAIN_LIGHT_SHADOWS
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 UNITY_HDR_ON _ADDITIONAL_LIGHTS
+          _DEPTH_NO_MSAA _MAIN_LIGHT_SHADOWS
+        passType: 0
+  - first: {fileID: 4800000, guid: 494e6f52c615a4e428d3a5194ea227c1, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: 
+        passType: 11
+      - keywords: 
+        passType: 13
+      - keywords: FOG_EXP2
+        passType: 13
+      - keywords: FOG_EXP2 _ADDITIONAL_LIGHTS
+        passType: 13
+      - keywords: _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: FOG_EXP2 _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 UNITY_HDR_ON _ADDITIONAL_LIGHTS
+          _DEPTH_NO_MSAA _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 LIGHTPROBE_SH UNITY_HDR_ON _ADDITIONAL_LIGHTS
+          _DEPTH_NO_MSAA _MAIN_LIGHT_SHADOWS
+        passType: 13
+  - first: {fileID: 4800000, guid: 170fbd33930e80143b90170b9afa30ef, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: BILLBOARD_FACE_CAMERA_POS _DEPTH_NO_MSAA _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS LIGHTPROBE_SH _DEPTH_NO_MSAA _MAIN_LIGHT_SHADOWS
+        passType: 13
+  - first: {fileID: 4800000, guid: 09acca735931207469ebf2183e339e6a, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: FOG_EXP2
+        passType: 8
+      - keywords: INSTANCING_ON
+        passType: 8
+      - keywords: FOG_EXP2 INSTANCING_ON
+        passType: 8
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 _ADDITIONAL_LIGHTS _DEPTH_NO_MSAA
+          _MAIN_LIGHT_SHADOWS
+        passType: 8
+      - keywords: 
+        passType: 11
+      - keywords: FOG_EXP2
+        passType: 11
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 _ADDITIONAL_LIGHTS _DEPTH_NO_MSAA
+          _MAIN_LIGHT_SHADOWS
+        passType: 11
+      - keywords: 
+        passType: 13
+      - keywords: FOG_EXP2
+        passType: 13
+      - keywords: FOG_EXP2 INSTANCING_ON
+        passType: 13
+      - keywords: FOG_EXP2 _ADDITIONAL_LIGHTS
+        passType: 13
+      - keywords: FOG_EXP2 INSTANCING_ON _ADDITIONAL_LIGHTS
+        passType: 13
+      - keywords: _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: FOG_EXP2 _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: FOG_EXP2 _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: FOG_EXP2 INSTANCING_ON _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 _ADDITIONAL_LIGHTS _DEPTH_NO_MSAA
+          _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 UNITY_HDR_ON _ADDITIONAL_LIGHTS
+          _DEPTH_NO_MSAA _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 INSTANCING_ON UNITY_HDR_ON _ADDITIONAL_LIGHTS
+          _DEPTH_NO_MSAA _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 INSTANCING_ON LIGHTPROBE_SH
+          UNITY_HDR_ON _ADDITIONAL_LIGHTS _DEPTH_NO_MSAA _MAIN_LIGHT_SHADOWS
+        passType: 13
+  - first: {fileID: 4800000, guid: 9f6cf5b484f74e14596c9f39e21a0e3c, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: 
+        passType: 11
+      - keywords: 
+        passType: 13
+      - keywords: FOG_EXP2 _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 UNITY_HDR_ON _ADDITIONAL_LIGHTS
+          _DEPTH_NO_MSAA _MAIN_LIGHT_SHADOWS
+        passType: 13
+  - first: {fileID: 4800000, guid: 92a542d49c0d1d0478c243e758b81084, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: FOG_EXP2
+        passType: 8
+      - keywords: INSTANCING_ON
+        passType: 8
+      - keywords: FOG_EXP2 INSTANCING_ON
+        passType: 8
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 UNITY_HDR_ON _ADDITIONAL_LIGHTS
+          _DEPTH_NO_MSAA
+        passType: 8
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 INSTANCING_ON UNITY_HDR_ON _ADDITIONAL_LIGHTS
+          _DEPTH_NO_MSAA
+        passType: 8
+      - keywords: 
+        passType: 11
+      - keywords: FOG_EXP2
+        passType: 11
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 _ADDITIONAL_LIGHTS _DEPTH_NO_MSAA
+          _MAIN_LIGHT_SHADOWS
+        passType: 11
+      - keywords: 
+        passType: 13
+      - keywords: FOG_EXP2
+        passType: 13
+      - keywords: FOG_EXP2 INSTANCING_ON
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS
+        passType: 13
+      - keywords: FOG_EXP2 _ADDITIONAL_LIGHTS
+        passType: 13
+      - keywords: FOG_EXP2 INSTANCING_ON _ADDITIONAL_LIGHTS
+        passType: 13
+      - keywords: _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: FOG_EXP2 _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: FOG_EXP2 _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: FOG_EXP2 INSTANCING_ON _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 _ADDITIONAL_LIGHTS _DEPTH_NO_MSAA
+          _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 UNITY_HDR_ON _ADDITIONAL_LIGHTS
+          _DEPTH_NO_MSAA _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 LIGHTPROBE_SH UNITY_HDR_ON _ADDITIONAL_LIGHTS
+          _DEPTH_NO_MSAA _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 INSTANCING_ON UNITY_HDR_ON _ADDITIONAL_LIGHTS
+          _DEPTH_NO_MSAA _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 INSTANCING_ON LIGHTPROBE_SH
+          UNITY_HDR_ON _ADDITIONAL_LIGHTS _DEPTH_NO_MSAA _MAIN_LIGHT_SHADOWS
+        passType: 13
+  - first: {fileID: 4800000, guid: 554db07592e48f645959725adb442eb9, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: FOG_EXP2
+        passType: 8
+      - keywords: 
+        passType: 11
+      - keywords: 
+        passType: 13
+      - keywords: FOG_EXP2 _ADDITIONAL_LIGHTS
+        passType: 13
+      - keywords: _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: FOG_EXP2 _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 UNITY_HDR_ON _ADDITIONAL_LIGHTS
+          _DEPTH_NO_MSAA _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 LIGHTPROBE_SH UNITY_HDR_ON _ADDITIONAL_LIGHTS
+          _DEPTH_NO_MSAA _MAIN_LIGHT_SHADOWS
+        passType: 13
+  - first: {fileID: 4800000, guid: 7b53dfc52477f5d478042ebb94c002fc, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: 
+        passType: 11
+      - keywords: 
+        passType: 13
+      - keywords: FOG_EXP2 _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 UNITY_HDR_ON _ADDITIONAL_LIGHTS
+          _DEPTH_NO_MSAA _MAIN_LIGHT_SHADOWS
+        passType: 13
+  - first: {fileID: 4800000, guid: 82e95d87261d972419c3d3ac5425982f, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: FOG_EXP2
+        passType: 8
+      - keywords: INSTANCING_ON
+        passType: 8
+      - keywords: FOG_EXP2 INSTANCING_ON
+        passType: 8
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 UNITY_HDR_ON _ADDITIONAL_LIGHTS
+          _DEPTH_NO_MSAA
+        passType: 8
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 INSTANCING_ON UNITY_HDR_ON _ADDITIONAL_LIGHTS
+          _DEPTH_NO_MSAA
+        passType: 8
+      - keywords: 
+        passType: 11
+      - keywords: FOG_EXP2
+        passType: 11
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 _ADDITIONAL_LIGHTS _DEPTH_NO_MSAA
+          _MAIN_LIGHT_SHADOWS
+        passType: 11
+      - keywords: 
+        passType: 13
+      - keywords: FOG_EXP2
+        passType: 13
+      - keywords: FOG_EXP2 INSTANCING_ON
+        passType: 13
+      - keywords: FOG_EXP2 _ADDITIONAL_LIGHTS
+        passType: 13
+      - keywords: FOG_EXP2 INSTANCING_ON _ADDITIONAL_LIGHTS
+        passType: 13
+      - keywords: _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: FOG_EXP2 _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: FOG_EXP2 _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: FOG_EXP2 INSTANCING_ON _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 _ADDITIONAL_LIGHTS _DEPTH_NO_MSAA
+          _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 UNITY_HDR_ON _ADDITIONAL_LIGHTS
+          _DEPTH_NO_MSAA _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 LIGHTPROBE_SH UNITY_HDR_ON _ADDITIONAL_LIGHTS
+          _DEPTH_NO_MSAA _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 INSTANCING_ON UNITY_HDR_ON _ADDITIONAL_LIGHTS
+          _DEPTH_NO_MSAA _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 INSTANCING_ON LIGHTPROBE_SH
+          UNITY_HDR_ON _ADDITIONAL_LIGHTS _DEPTH_NO_MSAA _MAIN_LIGHT_SHADOWS
+        passType: 13
+  - first: {fileID: 4800000, guid: 9e462be833276004095a6c0ca5194f33, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: FOG_EXP2
+        passType: 8
+      - keywords: INSTANCING_ON
+        passType: 8
+      - keywords: FOG_EXP2 INSTANCING_ON
+        passType: 8
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 INSTANCING_ON UNITY_HDR_ON _ADDITIONAL_LIGHTS
+          _DEPTH_NO_MSAA
+        passType: 8
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 UNITY_HDR_ON _ADDITIONAL_LIGHTS
+          _DEPTH_NO_MSAA _GROUNDCOVERON_ON
+        passType: 8
+      - keywords: INSTANCING_ON _BLENDNORMALSON_ON _GROUNDCOVERON_ON
+        passType: 8
+      - keywords: 
+        passType: 11
+      - keywords: FOG_EXP2
+        passType: 11
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 _ADDITIONAL_LIGHTS _DEPTH_NO_MSAA
+          _MAIN_LIGHT_SHADOWS
+        passType: 11
+      - keywords: 
+        passType: 13
+      - keywords: FOG_EXP2
+        passType: 13
+      - keywords: FOG_EXP2 INSTANCING_ON
+        passType: 13
+      - keywords: FOG_EXP2 _ADDITIONAL_LIGHTS
+        passType: 13
+      - keywords: FOG_EXP2 INSTANCING_ON _ADDITIONAL_LIGHTS
+        passType: 13
+      - keywords: _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: FOG_EXP2 _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: FOG_EXP2 _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: FOG_EXP2 INSTANCING_ON _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 _ADDITIONAL_LIGHTS _DEPTH_NO_MSAA
+          _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 UNITY_HDR_ON _ADDITIONAL_LIGHTS
+          _DEPTH_NO_MSAA _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 LIGHTPROBE_SH UNITY_HDR_ON _ADDITIONAL_LIGHTS
+          _DEPTH_NO_MSAA _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 INSTANCING_ON UNITY_HDR_ON _ADDITIONAL_LIGHTS
+          _DEPTH_NO_MSAA _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 INSTANCING_ON LIGHTPROBE_SH
+          UNITY_HDR_ON _ADDITIONAL_LIGHTS _DEPTH_NO_MSAA _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: FOG_EXP2 _ADDITIONAL_LIGHTS _GROUNDCOVERON_ON
+        passType: 13
+      - keywords: _GROUNDCOVERON_ON _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: FOG_EXP2 _ADDITIONAL_LIGHTS _GROUNDCOVERON_ON _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 UNITY_HDR_ON _ADDITIONAL_LIGHTS
+          _DEPTH_NO_MSAA _GROUNDCOVERON_ON _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 LIGHTPROBE_SH UNITY_HDR_ON _ADDITIONAL_LIGHTS
+          _DEPTH_NO_MSAA _GROUNDCOVERON_ON _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: FOG_EXP2 _ADDITIONAL_LIGHTS _BLENDNORMALSON_ON _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 UNITY_HDR_ON _ADDITIONAL_LIGHTS
+          _BLENDNORMALSON_ON _DEPTH_NO_MSAA _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: FOG_EXP2 _ADDITIONAL_LIGHTS _BLENDNORMALSON_ON _GROUNDCOVERON_ON
+        passType: 13
+      - keywords: _BLENDNORMALSON_ON _GROUNDCOVERON_ON _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: FOG_EXP2 _ADDITIONAL_LIGHTS _BLENDNORMALSON_ON _GROUNDCOVERON_ON
+          _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 UNITY_HDR_ON _ADDITIONAL_LIGHTS
+          _BLENDNORMALSON_ON _DEPTH_NO_MSAA _GROUNDCOVERON_ON _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 LIGHTPROBE_SH UNITY_HDR_ON _ADDITIONAL_LIGHTS
+          _BLENDNORMALSON_ON _DEPTH_NO_MSAA _GROUNDCOVERON_ON _MAIN_LIGHT_SHADOWS
+        passType: 13
+  - first: {fileID: 4800000, guid: 0406db5a14f94604a8c57ccfbc9f3b46, type: 3}
+    second:
+      variants:
+      - keywords: FOG_EXP2 _ALPHATEST_ON
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 LIGHTPROBE_SH UNITY_HDR_ON _ADDITIONAL_LIGHTS
+          _ALPHATEST_ON _DEPTH_NO_MSAA _MAIN_LIGHT_SHADOWS
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 LIGHTPROBE_SH UNITY_HDR_ON _ADDITIONAL_LIGHTS
+          _ALPHATEST_ON _DEPTH_NO_MSAA _MAIN_LIGHT_SHADOWS _RECEIVE_SHADOWS_OFF
+        passType: 0
+      - keywords: FOG_EXP2 _COLOROVERLAY_ON
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS LIGHTPROBE_SH _COLOROVERLAY_ON _DEPTH_NO_MSAA
+          _MAIN_LIGHT_SHADOWS
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 LIGHTPROBE_SH UNITY_HDR_ON _ADDITIONAL_LIGHTS
+          _COLOROVERLAY_ON _DEPTH_NO_MSAA _MAIN_LIGHT_SHADOWS
+        passType: 0
+      - keywords: FOG_EXP2 _FADING_ON _SOFTPARTICLES_ON
+        passType: 0
+      - keywords: FOG_EXP2 _EMISSION _FADING_ON _SOFTPARTICLES_ON
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 LIGHTPROBE_SH UNITY_HDR_ON _ADDITIONAL_LIGHTS
+          _DEPTH_NO_MSAA _FADING_ON _MAIN_LIGHT_SHADOWS _SOFTPARTICLES_ON
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 LIGHTPROBE_SH UNITY_HDR_ON _ADDITIONAL_LIGHTS
+          _DEPTH_NO_MSAA _EMISSION _FADING_ON _MAIN_LIGHT_SHADOWS _SOFTPARTICLES_ON
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 LIGHTPROBE_SH UNITY_HDR_ON _ADDITIONAL_LIGHTS
+          _DEPTH_NO_MSAA _EMISSION _FADING_ON _MAIN_LIGHT_SHADOWS _RECEIVE_SHADOWS_OFF
+          _SOFTPARTICLES_ON
+        passType: 0
+  - first: {fileID: 4800000, guid: 6f9d09ea143f2634cb24e39f2c5882cb, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 UNITY_HDR_ON _ADDITIONAL_LIGHTS
+          _DEPTH_NO_MSAA
+        passType: 8
+      - keywords: 
+        passType: 11
+      - keywords: 
+        passType: 13
+      - keywords: FOG_EXP2 _ADDITIONAL_LIGHTS
+        passType: 13
+      - keywords: _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: FOG_EXP2 _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 UNITY_HDR_ON _ADDITIONAL_LIGHTS
+          _DEPTH_NO_MSAA _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 LIGHTPROBE_SH UNITY_HDR_ON _ADDITIONAL_LIGHTS
+          _DEPTH_NO_MSAA _MAIN_LIGHT_SHADOWS
+        passType: 13
+  - first: {fileID: 4800000, guid: 8d2bb70cbf9db8d4da26e15b26e74248, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: BILLBOARD_FACE_CAMERA_POS _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS LIGHTPROBE_SH _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS _DEPTH_NO_MSAA _MAIN_LIGHT_SHADOWS
+        passType: 13
+  - first: {fileID: 4800000, guid: 66906d5c57c4a9c4eb411e5bca74e37c, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: 
+        passType: 11
+      - keywords: 
+        passType: 13
+      - keywords: FOG_EXP2
+        passType: 13
+      - keywords: FOG_EXP2 _ADDITIONAL_LIGHTS
+        passType: 13
+      - keywords: _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: FOG_EXP2 _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 UNITY_HDR_ON _ADDITIONAL_LIGHTS
+          _DEPTH_NO_MSAA _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 LIGHTPROBE_SH UNITY_HDR_ON _ADDITIONAL_LIGHTS
+          _DEPTH_NO_MSAA _MAIN_LIGHT_SHADOWS
+        passType: 13
+  - first: {fileID: 4800000, guid: e540277d695470b4d85f72a22b7c1020, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: FOG_EXP2
+        passType: 8
+      - keywords: INSTANCING_ON
+        passType: 8
+      - keywords: FOG_EXP2 INSTANCING_ON
+        passType: 8
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 _ADDITIONAL_LIGHTS _DEPTH_NO_MSAA
+          _MAIN_LIGHT_SHADOWS
+        passType: 8
+      - keywords: 
+        passType: 11
+      - keywords: FOG_EXP2
+        passType: 11
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 _ADDITIONAL_LIGHTS _DEPTH_NO_MSAA
+          _MAIN_LIGHT_SHADOWS
+        passType: 11
+      - keywords: 
+        passType: 13
+      - keywords: FOG_EXP2
+        passType: 13
+      - keywords: FOG_EXP2 INSTANCING_ON
+        passType: 13
+      - keywords: FOG_EXP2 _ADDITIONAL_LIGHTS
+        passType: 13
+      - keywords: FOG_EXP2 INSTANCING_ON _ADDITIONAL_LIGHTS
+        passType: 13
+      - keywords: _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: FOG_EXP2 _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: FOG_EXP2 _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: FOG_EXP2 INSTANCING_ON _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 _ADDITIONAL_LIGHTS _DEPTH_NO_MSAA
+          _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 UNITY_HDR_ON _ADDITIONAL_LIGHTS
+          _DEPTH_NO_MSAA _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 INSTANCING_ON UNITY_HDR_ON _ADDITIONAL_LIGHTS
+          _DEPTH_NO_MSAA _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 INSTANCING_ON LIGHTPROBE_SH
+          UNITY_HDR_ON _ADDITIONAL_LIGHTS _DEPTH_NO_MSAA _MAIN_LIGHT_SHADOWS
+        passType: 13
+  - first: {fileID: 4800000, guid: e7857e9d0c934dc4f83f270f8447b006, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS _DEPTH_NO_MSAA _MAIN_LIGHT_SHADOWS
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 UNITY_HDR_ON _ADDITIONAL_LIGHTS
+          _DEPTH_NO_MSAA _MAIN_LIGHT_SHADOWS
+        passType: 0
+  - first: {fileID: 4800000, guid: 0ef6b50e2e41c014dbd8578900796423, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: 
+        passType: 11
+      - keywords: 
+        passType: 13
+      - keywords: FOG_EXP2 _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 UNITY_HDR_ON _ADDITIONAL_LIGHTS
+          _DEPTH_NO_MSAA _MAIN_LIGHT_SHADOWS
+        passType: 13
+  - first: {fileID: 4800000, guid: d6dae50ee9e1bfa4db75f19f99355220, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS _DEPTH_NO_MSAA _MAIN_LIGHT_SHADOWS
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 UNITY_HDR_ON _ADDITIONAL_LIGHTS
+          _DEPTH_NO_MSAA _MAIN_LIGHT_SHADOWS
+        passType: 0
+  - first: {fileID: 4800000, guid: 78af274e2e8a40b4487a223c82ab5048, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: 
+        passType: 11
+      - keywords: 
+        passType: 13
+      - keywords: FOG_EXP2
+        passType: 13
+      - keywords: FOG_EXP2 _ADDITIONAL_LIGHTS
+        passType: 13
+      - keywords: _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: FOG_EXP2 _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 UNITY_HDR_ON _ADDITIONAL_LIGHTS
+          _DEPTH_NO_MSAA _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 LIGHTPROBE_SH UNITY_HDR_ON _ADDITIONAL_LIGHTS
+          _DEPTH_NO_MSAA _MAIN_LIGHT_SHADOWS
+        passType: 13
+  - first: {fileID: 4800000, guid: e507fdfead5ca47e8b9a768b51c291a1, type: 3}
+    second:
+      variants:
+      - keywords: FOG_EXP2 _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS
+        passType: 0
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800000, guid: 2af97cff360013341a004a6336324130, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: 
+        passType: 11
+      - keywords: 
+        passType: 13
+      - keywords: FOG_EXP2 _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS
+        passType: 13

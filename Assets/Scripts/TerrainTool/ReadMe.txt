@@ -1,0 +1,4 @@
+相关宏定义：
+SPR_ON：是否是URP项目
+SPLATMIX_IN_TEXTURE：纹理提前融合到一张Texture
+SPLATMIX_IN_SHADER：在Shader中融合纹理

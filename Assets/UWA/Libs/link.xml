@@ -1,0 +1,8 @@
+<linker>
+<assembly fullname="UWAWrapper_iOS" ignoreIfMissing="1" ignoreIfUnreferenced="1">
+</assembly>
+<assembly fullname="UWAWrapper_Android" ignoreIfMissing="1" ignoreIfUnreferenced="1">
+</assembly>
+<assembly fullname="UWAWrapper_Windows" ignoreIfMissing="1" ignoreIfUnreferenced="1">
+</assembly>
+</linker>
